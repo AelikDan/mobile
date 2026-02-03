@@ -9,25 +9,25 @@ Então também baixamos e configuramos o VS Code e também o sincronizamos com o
 ###  Tipos de Desenvolvimento
 
 - Nativo
-    -Android:
-        -SDK : Android SDK
-        -IDE : Android Studio
-        -Linguagens: Kotlin e Java
-        -Ambientes: Mac, Windows, Linux
-    -Ios:
-        -SDK : Cocoa Touch
-        -IDE : Xcode
-        -Linguagens: Swift, Objective-C
-        -Ambientes: Mac
+    - Android:
+        - SDK : Android SDK
+        - IDE : Android Studio
+        - Linguagens : Kotlin e Java
+        - Ambientes : Mac, Windows, Linux
+    - Ios:
+        - SDK : Cocoa Touch
+        - IDE : Xcode
+        - Linguagens : Swift, Objective-C
+        - Ambientes : Mac
         
 - Multiplataforma
-    -React Native:
-        -SDK: Node.JS
-        -IDE: VSCode,
-        -Linguagens: JavaScript / TypeScript
-        -Ambiente: Mac, Windows, Linux
-    -Flutter:
-        -SDK: Flutter SDK
-        -IDE: VSCode, Android Studio
-        -Linguagens: Dart
-        -Ambiente: Mac, Windows, Linux
+    - React Native:
+        - SDK : Node.JS
+        - IDE : VSCode,
+        - Linguagens : JavaScript / TypeScript
+        - Ambiente : Mac, Windows, Linux
+    - Flutter:
+        - SDK : Flutter SDK
+        - IDE : VSCode, Android Studio
+        - Linguagens : Dart
+        - Ambiente : Mac, Windows, Linux
