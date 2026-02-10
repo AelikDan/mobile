@@ -31,3 +31,25 @@ Então também baixamos e configuramos o VS Code e também o sincronizamos com o
         - IDE : VSCode, Android Studio
         - Linguagens : Dart
         - Ambiente : Mac, Windows, Linux
+
+## Preparação do ambiente de desenvolvimento
+
+### Instalação do FlutterSDK
+- Download do arquivo ZIP na página flutter.dev
+- Inclusão do flutter na pasta C:\src
+- Inclusão do flutter\bin nas variáveis de ambiente
+- teste o flutter --version
+
+### Instalação do AndroidSDK
+- download do Android SDK - Command Line Tools
+- adicionar o Command-Line ao c:\src\AndroidSDK
+- adicionar o SDKManager as Variáveis de ambiente
+- baixar os pacotes
+    - emulator
+    - platforms
+    - platform-tools
+    - build-tools
+- adicionar ADB e o Emulator as Variáveis de Ambiente
+
+- Criação da Imagem do Emulador - via sdkmanager
+- Build do Emulador - via sdkmanager
