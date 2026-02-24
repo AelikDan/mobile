@@ -1,55 +1,69 @@
-## Resumo
-Resumo da aula de hoje 27/01/2026:
+## Conteúdo da Aula Anterior
 
-Criamos um perfil de usuário para nós no computador. Conectados e configuramos o git nos computadores com vários comandos para incluirmos nossas contas e sincronizarmos com a do github.
-Então também baixamos e configuramos o VS Code e também o sincronizamos com o git, criando perfis e instalando extensões. Em outros momentos, nos foi passado informações sobre o conteúdo do ano.
+## Introdução ao Desenvolvimento Mobile
 
-# Introdução ao Desenvolvimento Mobile
-
-###  Tipos de Desenvolvimento
+### Tipo de Desenvolvimento
 
 - Nativo
     - Android:
         - SDK : Android SDK
         - IDE : Android Studio
-        - Linguagens : Kotlin e Java
-        - Ambientes : Mac, Windows, Linux
+        - Linguagens: Kotlin e Java
+        - Ambientes: Mac, Win, Linux
+
     - Ios:
-        - SDK : Cocoa Touch
-        - IDE : Xcode
-        - Linguagens : Swift, Objective-C
-        - Ambientes : Mac
-        
+        - SDK: Cocoa Touch
+        - IDE: Xcode
+        - Liguagens: Swift / Objectype-C
+        - Ambientes: Mac
+
 - Multiplataforma
     - React Native:
-        - SDK : Node.JS
-        - IDE : VSCode,
-        - Linguagens : JavaScript / TypeScript
-        - Ambiente : Mac, Windows, Linux
-    - Flutter:
-        - SDK : Flutter SDK
-        - IDE : VSCode, Android Studio
-        - Linguagens : Dart
-        - Ambiente : Mac, Windows, Linux
+        - SDK: Node.JS
+        - IDE: VSCode,
+        - Linguagens: JavaScript / TypeScript
+        - Ambientes: Mac, Win, Linux
+   
+    - Flutter
+        - SDK: Flutter SDK
+        - IDE: VSCode, Android Studio
+        - Linguagens: Dart
+        - Ambientes: Mac, Win, Linux
 
-## Preparação do ambiente de desenvolvimento
+## Preparação do Ambiente de Desenvolvimento
 
 ### Instalação do FlutterSDK
-- Download do arquivo ZIP na página flutter.dev
-- Inclusão do flutter na pasta C:\src
-- Inclusão do flutter\bin nas variáveis de ambiente
+- download do arquivo ZIP na página flutter.dev
+- inclusão do flutter na pasta C:\src
+- inclusão do flutter\bin nas varáveis de ambiente
 - teste o flutter --version
 
 ### Instalação do AndroidSDK
 - download do Android SDK - Command Line Tools
-- adicionar o Command-Line ao c:\src\AndroidSDK
-- adicionar o SDKManager as Variáveis de ambiente
-- baixar os pacotes
-    - emulator
+- adicionar o Command-line ao c:\src\AndroidSDK
+- adicionar o SDKManager as Variáveis de Ambiente
+- download dos pacotes
+    - emulador
     - platforms
     - platform-tools
     - build-tools
 - adicionar ADB e o Emulator as Variáveis de Ambiente
-
 - Criação da Imagem do Emulador - via sdkmanager
 - Build do Emulador - via sdkmanager
+
+### Criação de Projetos e Códigos da Linha de Comando
+
+- criação de projetos
+    - flutter create nome_do_app
+        - flags(parâmetros):
+            - --empty : Cria um aplicativo "vazio"(hello World!)
+            - --platforms : permite a seleção de uma plataforma de desenvolvimento
+                - ex: --platforms=android (a criação do projeto será somente para a plataforma android)
+    - exemplo de criação de uma aplicativo android vazio
+        - flutter create nome_do_app --empty --platforms=android
+        - obs: nome do aplicativo: todas as letras minúsculas, separação de palavras com "_";
+    - flutter doctor
+        - permite correção de pequenos problemas no flutter e identificação dos parâmetros funcionais em relação as plataforma de desenvolvimento
+        - sempre rodar o flutter doctor no começo do desenvolvimento
+    - flutter clean
+        - limpa cache do build()
