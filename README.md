@@ -66,4 +66,15 @@
         - permite correção de pequenos problemas no flutter e identificação dos parâmetros funcionais em relação as plataforma de desenvolvimento
         - sempre rodar o flutter doctor no começo do desenvolvimento
     - flutter clean
-        - limpa cache do build()
+        - limpa cache do build(apaga o apk anterior)
+    - flutter run -v
+        - build do app (apk)
+    
+    - Gerenciamento de dependências do PubSpec()
+        - Instalação
+            - Flutter pub add nome_dependencia
+        - Baixar e instalar dependências projetadas 
+            - Flutter pub get
+        - Outros comandos do flutter pub(Dependências)
+            - Flutter pub outdated (verifica se a dependência estão desetualizadas)
+            - Flutter pub upgraed (Atualiza as dependências do flutter pub)
